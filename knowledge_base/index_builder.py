@@ -33,7 +33,7 @@ def build_index(documents_dir: str, output_path: str = None):
         try:
             parser = get_parser_for(file_path)
 
-            document = parser.parse(file_path)
+            document = parser.parse()
             documents.append(document)
 
         except DocumentParsingError as error:

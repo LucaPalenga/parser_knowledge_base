@@ -117,4 +117,4 @@ class Document:
         )
     
     def __repr__(self) -> str:
-        return f"Document(title={self._title}, format={self._format}, word_count={self._word_count})"
+        return f"Document - {self._title}, {self._format}"

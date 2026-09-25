@@ -46,7 +46,13 @@ class IndexReader:
 
         matching_documents = []
         for doc in documents:
-            if query in doc.content or query in doc.title or query in doc.short_content:
+            # Normalizzo le stringhe per confronti case-insensitive
+            query_lower = query.lower()
+            content = doc.content.lower()
+            title = doc.title.lower()
+            short_content = doc.short_content.lower()
+
+            if query_lower in content or query_lower in title or query_lower in short_content:
                 matching_documents.append(doc)
 
         return matching_documents
