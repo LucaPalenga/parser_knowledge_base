@@ -1,0 +1,12 @@
+Nota di prova con caratteri particolari 🚀🎉
+
+Città: Perugia — Direttore: José García — Note: "questo è un caso limite" (con virgolette curve “così” e apici 'così').
+
+Simboli e valute: 100€, 50£, 30¥, 25% di sconto, temperatura 21°C.
+
+Testo misto con altre lingue: café, naïve, façade, Straße, 你好世界, こんにちは, привет.
+
+Colonna\tcon\ttabulazioni\te\ninterruzioni
+di riga miste.
+
+Fine del documento — controllare che parsing e conteggio parole gestiscano correttamente accenti, emoji ed encoding UTF-8.

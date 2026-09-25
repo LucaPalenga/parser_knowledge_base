@@ -1,0 +1,3 @@
+Questo file finge di essere una presentazione (estensione .pptx) ma contiene solo testo semplice.
+Serve come caso limite: un'estensione non gestita dal parser, che deve essere riconosciuta come formato non supportato,
+segnalata chiaramente e saltata senza interrompere l'elaborazione degli altri documenti dell'archivio.

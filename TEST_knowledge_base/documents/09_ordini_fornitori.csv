@@ -1,0 +1,7 @@
+numero_ordine,fornitore,data_ordine,importo,stato
+ORD-2024-001,Fornitore Alfa Srl,2024-01-05,4200.50,consegnato
+ORD-2024-002,Fornitore Beta Spa,2024-01-11,1580.00,in ritardo
+ORD-2024-003,Fornitore Gamma Snc,2024-01-18,890.75,consegnato
+ORD-2024-004,Fornitore Beta Spa,2024-01-25,2300.00,in ritardo
+ORD-2024-005,Fornitore Delta Srl,2024-02-02,650.20,in transito
+ORD-2024-006,Fornitore Alfa Srl,2024-02-09,3100.00,consegnato

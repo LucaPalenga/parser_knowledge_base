@@ -1,0 +1,2 @@
+# Il progetto usa esclusivamente la standard library di Python
+# (os, csv, json, re, datetime, enum, ecc.): nessuna dipendenza esterna richiesta.

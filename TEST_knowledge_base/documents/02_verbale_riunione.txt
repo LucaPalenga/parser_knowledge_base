@@ -1,0 +1,22 @@
+Verbale riunione team Operations
+Data: 03/02/2024
+Partecipanti: M. Rossi, L. Bianchi, S. Verdi, A. Neri
+
+Ordine del giorno:
+1. Stato avanzamento migrazione magazzino
+2. Revisione fornitori in ritardo sulle consegne
+3. Pianificazione turni marzo
+
+Discussione:
+La migrazione del magazzino centrale procede secondo i tempi previsti, con circa il 70% degli articoli già ricodificati nel nuovo sistema. Restano da completare le categorie elettronica e materiali di consumo, previste entro fine mese.
+
+Sui fornitori in ritardo, si è deciso di sollecitare formalmente i due fornitori con più di tre consegne in ritardo negli ultimi due mesi e di valutare fornitori alternativi per la categoria imballaggi.
+
+Per i turni di marzo si conferma lo schema attuale su tre turni, con una revisione a metà mese in base al carico ordini.
+
+Azioni:
+- L. Bianchi: invio solleciti fornitori entro il 07/02/2024
+- S. Verdi: report completamento migrazione entro il 29/02/2024
+- A. Neri: bozza turni marzo entro il 15/02/2024
+
+Prossima riunione fissata per il 17/02/2024.
