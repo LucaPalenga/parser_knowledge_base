@@ -1,9 +1,9 @@
 import json
 import os
 
-from knowledge_base.document import Document
-from knowledge_base.exceptions import DocumentParsingError
-from knowledge_base.parsers.registry import get_parser_for
+from .document import Document
+from .exceptions import DocumentParsingError
+from .parsers.registry import get_parser_for
 
 
 def build_index(documents_dir: str, output_path: str = None):

@@ -1,6 +1,3 @@
-from datetime import date
-
-from ..document import Document
 from .parser import Parser
 
 
@@ -20,13 +17,6 @@ class TxtParser(Parser):
 
     def _get_format(self) -> str:
         return self.FORMAT_TXT
-
-    def _extract_date(self, content: str) -> date:
-        found_date = self._search_date_in_text(content)
-        if found_date:
-            return found_date
-
-        return super()._extract_date(content)
 
     def _extract_title(self, content: str) -> str:
         for line in content.splitlines():

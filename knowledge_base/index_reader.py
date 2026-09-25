@@ -60,9 +60,29 @@ class IndexReader:
     def filter_by_format(self, format: str) -> list[Document]:
         """
         Returns the Document objects whose format matches the given format.
-        
+
         Args:
             format: the format to filter by
         """
         documents = self.read()
         return [doc for doc in documents if doc.format == format]
+
+    def count_by_format(self) -> dict[str, int]:
+        """
+        Returns a dictionary mapping each format to the number of documents.
+        """
+        counts = {}
+        for doc in self.read():
+            counts[doc.format] = counts.get(doc.format, 0) + 1
+
+        return counts
+
+    def get_longest_document(self) -> Document:
+        """
+        Returns the Document with the highest word count, or None if the index is empty.
+        """
+        documents = self.read()
+        if not documents:
+            return None
+
+        return max(documents, key=lambda doc: doc.word_count)

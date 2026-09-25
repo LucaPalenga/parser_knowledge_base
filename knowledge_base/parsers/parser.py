@@ -72,10 +72,10 @@ class Parser:
 
     def _extract_date(self, content: str) -> date:
         """
-        Returns the date found in the content, or None if no date is found.
-        Must be implemented properly by subclasses.
+        Returns the first date found in the content, or None if no date is found.
+        Subclasses can override it to implement a different strategy.
         """
-        return None
+        return self._search_date_in_text(content)
 
     def _extract_title(self, content: str) -> str:
         """

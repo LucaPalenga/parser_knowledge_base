@@ -98,6 +98,7 @@ class Document:
             "word_count": self._word_count,
         }
 
+    @staticmethod
     def from_json(data: dict):
         """
         Returns a Document from a JSON.
